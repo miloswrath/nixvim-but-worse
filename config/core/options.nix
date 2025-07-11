@@ -53,10 +53,10 @@
     foldenable = true;
 
     # Always keep 8 lines above/below cursor unless at start/end of file
-    scrolloff = 8;
+    scrolloff = 10;
 
     # Reduce which-key timeout to 10ms
-    timeoutlen = 250;
+    timeoutlen = 10;
     # ttimeoutlen = 20;
 
     # Set encoding type

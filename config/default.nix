@@ -36,7 +36,7 @@
       settings.timeout = 200;
     };
     which-key = {
-      enable = false; # If you want to enable then change timeoutLen to 10 in core/options.nix for better performance
+      enable = true; # If you want to enable then change timeoutLen to 10 in core/options.nix for better performance
       settings.show_keys = true;
     };
   };
