@@ -87,5 +87,7 @@
     # shellcheck
     vale
     yamllint
+    nodejs
+    copilot-language-server
   ];
 }

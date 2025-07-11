@@ -25,5 +25,6 @@
     ./project.nix
     ./toggleterm.nix
     ./treesitter.nix
+    ./copilot-chat.nix
   ];
 }
