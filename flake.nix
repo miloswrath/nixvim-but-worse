@@ -56,7 +56,7 @@
               };
             })
           ];
-          config = {allowUnfree=true};
+          config = {allowUnfree=true;};
         };
 
         packages = {
