@@ -18,6 +18,8 @@ in {
 
     # anything under `settings` gets passed straight to `require("CopilotChat").setup(opts)`
     settings = {
+      copilot_node_command = lib.getExe pkgs.nodejs;
+      lsp_binary = lib.getExe pkgs.copilot-language-server;
       # floating window centred in the editor
       window = {
         layout   = "float";
