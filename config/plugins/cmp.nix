@@ -15,7 +15,6 @@
       package = pkgs.vimPlugins.copilot-lua;
       autoLoad = false;
       settings = {
-        suggestion = { enabled = true; }; # disable floating suggestions if using cmp
         panel = { enabled = false; };      # disable Copilot panel
       };
     };

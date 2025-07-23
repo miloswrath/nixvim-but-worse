@@ -41,7 +41,7 @@
             -- bootstrap copilot.lua on startup so :Copilot works
             -- you can pass any plugin‐specific opts here too:
             require("copilot").setup({
-              suggestion = { enabled = true, auto_trigger = true, debounce = 75 },
+              suggestion = { auto_trigger = true, debounce = 75 },
               panel      = { enabled = false,  auto_refresh = true },
             })
           '';
