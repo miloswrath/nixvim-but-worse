@@ -1,3 +1,4 @@
 # Nixvim
 
 ![Screenshot](./preview.png)
+

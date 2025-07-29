@@ -15,6 +15,7 @@
           installRustc = true;
         };
         # gdscript.enable = true;
+        elixirls.enable = true;
         lua_ls.enable = true;
         yamlls.enable = true;
         nil_ls.enable = true;

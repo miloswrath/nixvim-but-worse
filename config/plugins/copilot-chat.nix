@@ -29,6 +29,7 @@ in {
         row      = 1;    # centred vertically
         col      = 2;    # centred horizontally
       };
+      no_tab_map = true;  # don't use <Tab> to open the chat window
 
       keymaps = {
         open     = "<leader>cc";

@@ -43,6 +43,10 @@
             require("copilot").setup({
               suggestion = { auto_trigger = true, debounce = 75 },
               panel      = { enabled = false,  auto_refresh = true },
+              no_tab_map = true,
+              keymaps = {
+                accept = "<C-l>",
+              },
             })
           '';
           };

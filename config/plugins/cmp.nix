@@ -15,6 +15,7 @@
       package = pkgs.vimPlugins.copilot-lua;
       autoLoad = false;
       settings = {
+        suggestion = { enabled = false; };
         panel = { enabled = false; };      # disable Copilot panel
       };
     };
