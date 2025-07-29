@@ -15,11 +15,14 @@
           installRustc = true;
         };
         # gdscript.enable = true;
-        elixirls.enable = true;
         lua_ls.enable = true;
         yamlls.enable = true;
         nil_ls.enable = true;
         marksman.enable = true;
+        erlangls.enable = true;
+        elixirls = {
+          enable = true;
+        };
         # pylsp.enable = true;
         pyright.enable = true;
         bashls.enable = true;

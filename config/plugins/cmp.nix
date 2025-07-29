@@ -23,6 +23,11 @@
     copilot-cmp = {
       enable = true;
       package = pkgs.vimPlugins.copilot-cmp;
+      settings = {
+        no_tab_map = true;  # disable tab mapping
+        assume_mapped = true;  # assume tab is already mapped
+        tab_fallback = "";  # disable fallback to tab completion
+      };
     };
 
     # your existing cmp settings, now with copilot-cmp included

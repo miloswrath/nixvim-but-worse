@@ -26,6 +26,9 @@
         toml
         yaml
         zig
+        elixir
+        eex
+        heex
       ];
       settings = {
         incremental_selection.enable = true;
