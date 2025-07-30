@@ -33,6 +33,7 @@
       settings = {
         incremental_selection.enable = true;
         indent.enable = true;
+        highlight.enable = true;
       };
     };
   };
