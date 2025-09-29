@@ -2,8 +2,9 @@
   plugins = {
     project-nvim = {
       enable = true;
-      enableTelescope = true;
+      enableTelescope = false;
       settings = {
+        telescope.enabled = true;
         detection_methods = [
           "lsp"
           "pattern"
@@ -43,4 +44,13 @@
       };
     };
   };
+
+  extraConfigLua = ''
+    vim.schedule(function()
+      local ok, telescope = pcall(require, 'telescope')
+      if ok then
+        pcall(telescope.load_extension, 'projects')
+      end
+    end)
+  '';
 }
