@@ -9,6 +9,9 @@
         ui-select = {
           enable = true;
         };
+        project = {
+          enable = true;
+        };
       };
       settings = {
         defaults = {

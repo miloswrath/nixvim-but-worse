@@ -43,6 +43,7 @@
   extraPlugins = with pkgs.vimPlugins; [
     vim-be-good
     nui-nvim
+    plenary-nvim
   ];
   extraPackages = with pkgs; [
     # ripgrep
