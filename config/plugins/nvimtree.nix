@@ -22,7 +22,12 @@
           enable = true;
           update_root = true;
         };
-        git.enable = true;
+        git = {
+          enable = true;
+        };
+        filters = {
+          git_ignored = false;
+        };
         actions = {
           open_file.quit_on_open = true;
         };
