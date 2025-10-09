@@ -70,7 +70,7 @@ in {
         gopls.enable = true;
         jsonls.enable = true;
         ts_ls.enable = true;
-        # html.enable = true;
+        html.enable = true;
         # volar.enable = true;
         # terraformls = {enable = true;};
         # ansiblels.enable = true;
@@ -109,8 +109,6 @@ in {
     lua-language-server
     yaml-language-server
     nil
-    erlang-ls
-    elixir-ls
     pyright
     nodePackages.typescript
     bash-language-server
