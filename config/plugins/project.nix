@@ -4,7 +4,7 @@
       enable = true;
       enableTelescope = false;
       settings = {
-        telescope.enabled = true;
+        telescope.enabled = false;
         detection_methods = [
           "lsp"
           "pattern"
@@ -47,8 +47,13 @@
 
   extraConfigLua = ''
     vim.schedule(function()
+      local project_loaded = pcall(require, 'project')
+      if not project_loaded or vim.g.project_setup ~= 1 then
+        return
+      end
+
       local ok, telescope = pcall(require, 'telescope')
-      if ok then
+      if ok and telescope then
         pcall(telescope.load_extension, 'projects')
       end
     end)

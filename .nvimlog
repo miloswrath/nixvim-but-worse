@@ -1,0 +1,1 @@
+WRN 2025-10-13T10:41:14.706 ?.911051   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nixvim.911051.0
