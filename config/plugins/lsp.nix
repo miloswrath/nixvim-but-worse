@@ -188,6 +188,8 @@ in {
     vim.keymap.set('n', '<leader>k', vim.diagnostic.goto_prev, vim.tbl_extend('force', diagnostic_opts, { desc = 'Prev diagnostic' }))
     vim.keymap.set('n', '<leader>j', vim.diagnostic.goto_next, vim.tbl_extend('force', diagnostic_opts, { desc = 'Next diagnostic' }))
 
+    vim.g.project_lsp_nowarn = 1
+
     vim.api.nvim_create_autocmd('LspAttach', {
       desc = 'LSP keymaps',
       callback = function(event)

@@ -26,5 +26,6 @@
     ./toggleterm.nix
     ./treesitter.nix
     ./copilot-chat.nix
+    ./csv-viewer.nix
   ];
 }
