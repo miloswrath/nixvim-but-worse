@@ -68,8 +68,7 @@
           { name = "crates"; }
         ];
         mapping = {
-          "<Tab>" = "cmp.mapping.confirm({ select = true })";
-          "<CR>" = "cmp.mapping.confirm({ select = true })";
+          "<C-[>" = "cmp.mapping.confirm({ select = true })";
           "<S-CR>" = "cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true })";
           "<C-Space>" = "cmp.mapping.complete()";
           "<C-j>" = "cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Select })";
