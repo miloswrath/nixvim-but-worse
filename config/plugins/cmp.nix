@@ -59,7 +59,7 @@
           };
         };
         sources = [
-          { name = "copilot"; } # <-- ✅ add copilot source here
+          { name = "copilot"; } 
           { name = "nvim_lsp"; }
           { name = "luasnip"; }
           { name = "buffer"; }
@@ -68,7 +68,7 @@
           { name = "crates"; }
         ];
         mapping = {
-          "<C-[>" = "cmp.mapping.confirm({ select = true })";
+          "<C-s>" = "cmp.mapping.confirm({ select = true })";
           "<S-CR>" = "cmp.mapping.confirm({ behavior = cmp.ConfirmBehavior.Replace, select = true })";
           "<C-Space>" = "cmp.mapping.complete()";
           "<C-j>" = "cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Select })";

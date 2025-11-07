@@ -2,6 +2,7 @@
   plugins = {
     alpha = {
       enable = true;
+      settings = {
       layout = [
         {
           type = "padding";
@@ -133,6 +134,7 @@
           };
         }
       ];
+    };
     };
   };
 }
