@@ -75,13 +75,13 @@
     marksman
     # Linters
     commitlint
-    # eslint_d
+    eslint_d
     golangci-lint
     hadolint
     # html-tidy
     luajitPackages.luacheck
     markdownlint-cli
-    nodePackages.jsonlint
+    # nodePackages.jsonlint
     pylint
     ruff
     # shellcheck
