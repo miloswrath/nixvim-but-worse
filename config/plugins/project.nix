@@ -5,10 +5,8 @@
       enableTelescope = false;
       settings = {
         telescope.enabled = false;
-        detection_methods = [
-          "lsp"
-          "pattern"
-        ];
+        use_lsp = true;
+	use_pattern = true;
         exclude_dirs = [
           "~/.local/*"
           "~/.cache/*"
