@@ -3,9 +3,10 @@
     treesitter-context = {enable = false;};
     treesitter = {
       enable = true;
+      package = pkgs.vimPlugins.nvim-treesitter;
       nixvimInjections = true;
       nixGrammars = true;
-      folding = false;
+      folding.enable = false;
       grammarPackages = with pkgs.vimPlugins.nvim-treesitter.builtGrammars; [
         nix
         bash
