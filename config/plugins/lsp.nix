@@ -110,14 +110,12 @@ in {
     yaml-language-server
     nil
     pyright
-    nodePackages.typescript
     bash-language-server
     clang-tools
     cmake-language-server
     csharp-ls
     gopls
     vscode-langservers-extracted
-    nodePackages.typescript-language-server
   ];
 
   extraConfigLuaPre = ''
