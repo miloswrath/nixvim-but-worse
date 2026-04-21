@@ -23,7 +23,6 @@
     {name = "bashls";}
     {name = "clangd";}
     {name = "cmake";}
-    {name = "csharp_ls";}
     {name = "gopls";}
     {name = "jsonls";}
     {
@@ -66,7 +65,7 @@ in {
         #ccls.enable = true;
         clangd.enable = true;
         cmake.enable = true;
-        csharp_ls.enable = true;
+        csharp_ls.enable = false;
         gopls.enable = true;
         jsonls.enable = true;
         ts_ls.enable = true;
@@ -113,7 +112,6 @@ in {
     bash-language-server
     clang-tools
     cmake-language-server
-    csharp-ls
     gopls
     vscode-langservers-extracted
   ];
