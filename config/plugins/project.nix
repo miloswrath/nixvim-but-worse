@@ -5,7 +5,7 @@
       enableTelescope = false;
       settings = {
         telescope.enabled = false;
-        use_lsp = true;
+        lsp.enabled = true;
 	use_pattern = true;
         exclude_dirs = [
           "~/.local/*"

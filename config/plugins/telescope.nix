@@ -64,7 +64,7 @@
         };
         pickers = {
           buffers = {
-            # sort_lastused = true;
+            sort_lastused = true;
             previewer = false;
 
             layout_config = {
@@ -155,7 +155,7 @@
           action = "highlights";
           options.desc = "Search Highlight Groups";
         };
-        "<leader>sk" = {
+        "<leeader>sk" = {
           action = "keymaps";
           options.desc = "Keymaps";
         };

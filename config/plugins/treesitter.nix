@@ -15,7 +15,6 @@
         python
         rust
         c
-        c_sharp
         cpp
         regex
         gitcommit
@@ -27,7 +26,6 @@
         toml
         yaml
         zig
-        elixir
         eex
         heex
       ];
